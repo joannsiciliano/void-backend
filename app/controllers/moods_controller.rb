@@ -7,7 +7,7 @@ class MoodsController < ApplicationController
 
   #moods/:id
   def show
-    @mood= Mood.find(param[:id])
+    @mood= Mood.find(params[:id])
     render json: @mood
   end
 
@@ -21,4 +21,5 @@ def destroy
   @mood=Mood.find(params[:id])
   @mood.destroy
   render json: "i have gone into the void"
+end
 end

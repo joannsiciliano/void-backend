@@ -18,8 +18,8 @@ meat_prison=Mood.create(feeling:"help I'm trapped in a meat prison")
 solace=Mood.create(feeling:"I find solace in the void")
 paranoid=Mood.create(feeling:"they r watching")
 
-user1=Void.create(name: "Anonymous", message: "ASDLKFsdaljkasdlkf", mood_id:25)
-user2=Void.create(name: "Gaspar Noé", message: ":)~", mood_id:26)
+user1=Void.create(name: "Anonymous", message: "ASDLKFsdaljkasdlkf", mood_id:Mood.all.sample.id)
+user2=Void.create(name: "Gaspar Noé", message: ":)~", mood_id:Mood.all.sample.id)
 user3=Void.create(name: "Martha Stewart", message: "AAAHHHHHHHHHHHHHHHHH", mood_id:27)
 user4=Void.create(name:"Q", message:"I heard from extremely high up sources that
 Trump just left a super secret squirrel meeting with the 
@@ -31,8 +31,6 @@ real republic and the rightful government will be installed. This plan to get ri
 the demonrats has been in place since 1963 and they just had to wait until a man, a 
 truly manly man, that was strong enough to follow through came along, 
 so yeah enjoy it now because in a few days all the socialist, nazi, communist 
-democrats will be in jail.",mood_id:28)
-user5=Void.create(name:"Taro", message:"hkhkjskdjfj3i422222222222 (i'm a kitty :))", mood_id:29)
-user6=Void.create(name:"Xan", message: "FFFFFFFFFFFF", mood_id:30)
-user7 = Void.create(name:"Issami Bish", message:"Gurl, you think you can BLOCK ME? You lucky i can only subtweet u rn through
-a seed or i'd whoop your fucking ass. why are you so rood?", mood_id:31)
+democrats will be in jail.",mood_id:Mood.all.sample.id)
+# user5=Void.create(name:"Taro", message:"hkhkjskdjfj3i422222222222 (i'm a kitty :))", mood_id:29)
+# user6=Void.create(name:"Xan", message: "FFFFFFFFFFFF", mood: mood.feeling)
