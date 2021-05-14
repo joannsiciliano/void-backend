@@ -29,15 +29,14 @@ end
 
 ## Demo
 
-click on the image below to watch a demo :)
 [![void](http://img.youtube.com/vi/t5652l8Vqsw/0.jpg)](https://www.youtube.com/watch?v=t5652l8Vqsw "The Void Becomes You")
-
-scream into the abyss [here](https://the-void-becomes-you.web.app/)
 
 ## Technologies
 
-technologies used: React.js, Ruby on Rails, p5.js, HTML5/CSS, and postgresQL. This app is live and hosted through Heroku and Firebase, and created as a phase 3 project for Flatiron School in Denver.
+technologies used: React.js, Ruby on Rails, p5.js, HTML5/CSS, and postgresQL. This app is live and hosted through Heroku and Firebase, and created as a phase 3 project for Flatiron School in Denver. While the app is functional, users will only be able to see new entries upon refresh. I plan on implementing Faye websockets in the near future to make the app more responsive. :)
 
 ![-](https://i.imgur.com/hkdLbtZ.jpg)
 
 [LinkdIn](https://www.linkedin.com/in/joannsiciliano/)
+
+scream into the abyss [here](https://the-void-becomes-you.web.app/)
