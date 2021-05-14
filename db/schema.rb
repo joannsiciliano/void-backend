@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2021_05_11_161152) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "moods", force: :cascade do |t|
     t.string "feeling"
     t.datetime "created_at", precision: 6, null: false
@@ -21,7 +24,7 @@ ActiveRecord::Schema.define(version: 2021_05_11_161152) do
   create_table "voids", force: :cascade do |t|
     t.string "name"
     t.text "message"
-    t.integer "mood_id", null: false
+    t.bigint "mood_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["mood_id"], name: "index_voids_on_mood_id"
